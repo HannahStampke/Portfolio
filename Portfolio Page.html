@@ -26,6 +26,9 @@
         <li class="nav-item">
           <a class="nav-link" href="Portfolio Page.html">Portfolio</a>
         </li>
+		<li class="nav-item">
+          <a class="nav-link" href="Portfolio Page.html#strategies">Projects</a>
+        </li>  
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="Contact me page.html">Contact</a>
         </li>
@@ -76,13 +79,17 @@
         </div>
       </div>
     </div>
+	<div class="d-flex flex-wrap justify-content-center gap-2">
+		<a href="#media"  type="button" class="btn btn-success">Media and Events</a>
+		<a href="#strategies" type="button" class="btn btn-success">Strategies and Projects</a>
+	</div>
   </section>
   <hr>
 
   <div class="container">
     <!-- Row 1 of cards -->
     <div class="row mb-3">
-      <div class="col-lg-4 col-md-6 col-12 mb-3">
+      <div id="media" class="col-lg-4 col-md-6 col-12 mb-3">
         <div class="card h-100">
           <img class="card-img-top responsive-img" src="images/Fun Projects.jpg" width="400" height="200" alt="Card image cap">
           <div class="card-body">
@@ -132,40 +139,140 @@
     <div class="row mb-4">
       <div class="col-12">
         <div class="card bg-light">
-          <h3 class="text-center card-header">Strategies and Projects</h3>
+          <h3 class="text-center card-header" id="strategies">Strategies and Projects</h3>
           <div class="card-body">
             <div class="row">
               <div class="col-md-6 mb-4">
-                <div class="d-flex align-items-start mb-3">
-                  <img class="flex-shrink-0 me-3" src="images/Collaborate.png" width="35" height="35" alt="Agent">
+                <div class="d-flex align-items-center mb-3" style="padding-bottom: 1rem;">
                   <div>
-                    <h5 class="mt-0">Microsoft 365 and Copilot adoption</h5>
-                    <p>Supporting nation-wide teams to adopt and integrate innovative digital tools into their workflows, enhancing organisational capability while maintaining strict compliance in a secure and sensitive sector.</p>
+					<div class="d-flex align-items-center mb-3">
+					<img class="flex-shrink-0 me-3" src="images/Collaborate.png" width="35" height="35" alt="Agent">
+              		<h5 class="mt-0 mb-0">Microsoft 365 and Copilot adoption</h5>
+					</div>  
+                    <ul>
+					<li><strong>Strategic Need</strong><p>Executing a nationwide rollout of M365 and Copilot while leading mandatory document reclassification to satisfy strict defense sector security controls and sensitive data handling protocols.</p></li>
+					<li><strong>Incentive Framework</strong><p>Implemented a value-driven approach ("carrot on a stick") where completing security classification pre-work unlocked immediate access to productivity features like Copilot and shared Planners.</p></li>
+					<li><strong>Network and Advocacy</strong><p>Leveraged a cross-functional Change Champions network to pilot migration workflows, test compliance processes, and provide embedded peer support across departments.</p></li>
+					<li><strong>Gamification and Communications</strong><p>Boosted staff engagement through positive, reward-based departmental competitions alongside tailored security support guides, workspace templates, and phased communication plans.</p></li>
+					  </ul>
+					  <div class="accordion accordion-flush" id="accordionM365">
+                  <div class="accordion-item bg-transparent border-0">
+                    <h2 class="accordion-header" id="headingM365">
+                      <button class="accordion-button collapsed bg-transparent p-0 text-decoration-underline shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseM365" aria-expanded="false" aria-controls="collapseM365">
+                        Read more
+                      </button>
+                    </h2>
+                    <div id="collapseM365" class="accordion-collapse collapse" aria-labelledby="headingM365" data-bs-parent="#accordionM365">
+                      <div class="accordion-body px-0 pt-2 pb-0">
+                        <p class="small text-secondary mb-0">Saab Australia is undertaking a nationwide transformation to roll out Microsoft 365 and Copilot across its entire workforce. Operating within a highly regulated environment, the transition requires all employees to reclassify and migrate existing documents to comply with strict defense sector security controls and handling protocols for sensitive data. To overcome the operational friction of this extensive pre-work while upholding rigorous information security standards, the change strategy was built around a clear incentive: completing data classification and migration unlocked early access to high-value efficiency tools, including Microsoft Copilot and shared Planner workspaces.<br><br>
+
+						To build momentum and ensure sustainable peer-to-peer support across business units, a dedicated Change Champions network was established. Comprising representatives from diverse departments, this group trialled initial migration processes, tested compliance frameworks, and refined training materials. Seeding these champions across teams created an accessible, embedded support system for staff needing guidance on security handling or technical encouragement throughout the transition.<br><br>
+
+						A core pillar of the rollout strategy was gamification, designed to drive high engagement without relying on compliance pressure. Pre-work tasks—including data reclassification against defense handling requirements—were structured as friendly competitions, allowing departments to compete for completion times and quality while earning individual and team rewards. Grounded entirely in positive reinforcement, the strategy successfully gamified complex data management while providing robust underlying infrastructure, including tailored workspace templates, comprehensive security support documentation, and targeted multi-stage communication plans.</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="d-flex align-items-start">
+                  </div>
+                </div>
+				  <hr>
+                <div class="d-flex align-items-start" style="padding-bottom: 1rem;">
+					<div>
+					<div class="d-flex align-items-center mb-3" style="padding-bottom: 1rem;">
                   <img class="flex-shrink-0 me-3" src="images/Relax.png" width="35" height="35" alt="Agent">
-                  <div>
                     <h5 class="mt-0">Leader's communication framework, training and toolkit</h5>
-                    <p>Giving leaders the knowledge and tools to effectively and efficiently cascade information across the organisation.</p>
+					</div>
+                   	<ul>
+					<li><strong>Strategic Need</strong><p>Overcoming organisational siloing and broken communication pipelines by establishing a clear, two-way cascading framework for leadership teams.</p></li>
+					<li><strong>Capability and Training</strong><p>Delivered practical training and an accessible "Leader Communication Cascade Pack" to standardise messaging and minimise effort for time-poor managers.</p></li>
+					<li><strong>Self-service Assessment Tool</strong><p>Built a diagnostic matrix tool allowing leaders to determine required communication scope and identify when to engage the central Marketing and Communications team.</p></li>
+					<li><strong>AI-Enabled Workflows</strong><p>AI-driven template prompts to automate content drafting and tone framing, ensuring high-quality, secure, and complete communication plans with minimal manual overhead.</p></li>
+					  </ul>
+					  <div class="accordion accordion-flush" id="accordionM365">
+                  <div class="accordion-item bg-transparent border-0">
+                    <h2 class="accordion-header" id="headingCascade">
+                      <button class="accordion-button collapsed bg-transparent p-0 text-decoration-underline shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCascade" aria-expanded="false" aria-controls="collapseCascade">
+                        Read more
+                      </button>
+                    </h2>
+                    <div id="collapseCascade" class="accordion-collapse collapse" aria-labelledby="headingCascade" data-bs-parent="#accordionCascade">
+                      <div class="accordion-body px-0 pt-2 pb-0">
+                        <p class="small text-secondary mb-0">To resolve operational siloing and restore broken, two-way communication pipelines across the organisation, a comprehensive leader-led communication strategy was designed and deployed. Recognising that information bottlenecks stem from time scarcity and unclear value metrics rather than malice, the framework shifted focus towards demonstrating the clear return on investment for structured cascading, equipping leaders with the mindset and tools needed to communicate efficiently with minimal effort.<br><br>
+						
+						A core component of the rollout was a practical training module that established clear principles around message intent, cascade protocols, and active feedback loops. To streamline execution, a unified "Leader Communication Cascade Pack" was created using standardised, accessible templates. This ensured executive messaging remained consistent, high-quality, and transparent as it filtered through different management tiers and functional departments.<br><br>
+
+						To further empower leaders while optimising internal comms resources, a dynamic Communication Plan Assessment Tool was introduced. By answering a series of targeted questions, leaders received a score mapped to a support matrix—clarifying tasks they could execute independently versus those requiring strategic advice from the Marketing and Communications team. Additionally, the templates were engineered for seamless AI integration, embedding prompt guidelines for tone, sensitivity, and framing. This enabled leaders to supply core strategic context ("why, when, and who") while AI generated baseline drafts and flagged knowledge gaps, significantly reducing prep time while maintaining professional rigor.</p>
+						</div>
+                      </div>
+					 </div>
+					</div>
                   </div>
                 </div>
+				 <hr>
               </div>
               <div class="col-md-6 mb-4">
-                <div class="d-flex align-items-start mb-3">
-                  <img class="flex-shrink-0 me-3" src="images/Microscope.png" width="35" height="35" alt="Agent">
+                <div class="d-flex align-items-center mb-3" style="padding-bottom: 1rem;">
                   <div>
-                    <h5 class="mt-0">Beyond the Bench - SA Pathology</h5>
-                    <p>A strategic positioning framework that identifies key opportunities to leverage digital transformation, health literacy, and co-designed business modelling to improve service delivery.</p>
+					<div class="d-flex align-items-center mb-3">
+					<img class="flex-shrink-0 me-3" src="images/Microscope.png" width="35" height="35" alt="Agent">
+              		<h5 class="mt-0 mb-0">Beyond the Bench - SA Pathology</h5>
+					</div> 
+                    	<ul>
+					<li><strong>Strategic Need</strong><p>Leading SA Pathology to being an authentically consumer-led public health partner, successfully bridging the gap between technical laboratory operations and the South Australian community.</p></li>
+					<li><strong>Key Challenges</strong><p>Tackled systemic hurdles including executive leadership transitions, operational complexity, geographical barriers, and health literacy gaps between complex clinical diagnostics and public understanding.</p></li>
+					<li><strong>Core Principles</strong><p>Grounded the strategic framework in four foundational pillars: accountability, cultural and geographical inclusivity for diverse groups, co-designed service outcomes, and mutual trust with the public health sector.</p></li>
+					<li><strong>Communications Support</strong><p>Deployed yearly communication campaigns aligned with core narrative themes and conducted annual impact reviews to maintain consistent messaging and high workforce engagement.</p></li>
+					  </ul>
+					  <div class="accordion accordion-flush" id="accordionBench">
+                  <div class="accordion-item bg-transparent border-0">
+                    <h2 class="accordion-header" id="headingBench">
+                      <button class="accordion-button collapsed bg-transparent p-0 text-decoration-underline shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBench" aria-expanded="false" aria-controls="collapseBench">
+                        Read more
+                      </button>
+                    </h2>
+                    <div id="collapseBench" class="accordion-collapse collapse" aria-labelledby="headingBench" data-bs-parent="#accordionBench">
+                      <div class="accordion-body px-0 pt-2 pb-0">
+                        <p class="small text-secondary mb-0">"Beyond the Bench" establishes a strategic narrative to position SA Pathology as an authentically consumer-led public health partner. Operating as a core government entity that informs over 70 percent of medical diagnoses for more than one million unique individuals annually, the organisation addresses key hurdles such as executive leadership transitions, operational complexity, and health literacy gaps between technical laboratory operations and the South Australian community. By deploying a narrative-first approach, the framework aligns service delivery around accountability, inclusivity, co-designed outcomes, and mutual trust.<br><br>
+							
+						To support this strategic positioning, the Communications team develops yearly communication campaigns aligned with core narrative themes to maintain consistent messaging across the workforce. These campaigns are supported by an annual impact review undertaken by the Communications team, ensuring ongoing alignment following the release of new strategic plans. </p>
+						</div>
+                      </div>
+					 </div>
+					</div>
                   </div>
                 </div>
-                <div class="d-flex align-items-start">
+				  <hr>
+                <div class="d-flex align-items-start" style="padding-bottom: 1rem;">
+					<div>
+					<div class="d-flex align-items-center mb-3" style="padding-bottom: 1rem;">
                   <img class="flex-shrink-0 me-3" src="images/Roadmap.png" width="35" height="35" alt="Agent">
-                  <div>
-                    <h5 class="mt-0">The 5-year roadmap</h5>
-                    <p>An overarching strategy to set the national benchmark for partnering with health consumers, ensuring that 100% of service developments are informed by community need and consumer lived experience.</p>
+                    <h5 class="mt-0">The 5-Year Roadmap</h5>
+					</div>
+                    	<ul>
+					<li><strong>Roadmap Vision</strong><p>Aims to ensure 100 percent of service developments are informed by community need and lived experience, setting a national benchmark.</p></li>
+					<li><strong>Execution Framework</strong><p>Governed long-term implementation through the PDSA and TQM models, utilising a phased delivery framework that transitions the organisation from foundational alignment to national leadership in patient care.</p></li>
+					<li><strong>Workforce Enablement</strong><p>Fostered proactive internal conversations linking projects to strategic goals, continuous improvement training, and embedding consumer input directly into the early planning stages of service delivery.</p></li>
+					<li><strong>Consumer Accountability</strong><p>Measures progress using narrative impact, trust indices, representative panels, collection centre audits, and storytelling feedback.</p></li>
+					  </ul>
+					  <div class="accordion accordion-flush" id="accordionRoad">
+                  <div class="accordion-item bg-transparent border-0">
+                    <h2 class="accordion-header" id="headingRoad">
+                      <button class="accordion-button collapsed bg-transparent p-0 text-decoration-underline shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRoad" aria-expanded="false" aria-controls="collapseRoad">
+                        Read more
+                      </button>
+                    </h2>
+                    <div id="collapseRoad" class="accordion-collapse collapse" aria-labelledby="headingRoad" data-bs-parent="#accordionRoad">
+                      <div class="accordion-body px-0 pt-2 pb-0">
+                        <p class="small text-secondary mb-0">The five-year roadmap outlines SA Pathology's transition toward setting the national benchmark for partnering with consumers, ensuring that 100 percent of service developments are informed by community need and consumer lived experience. Execution is governed by the Plan-Do-Study-Act (PDSA) and Total Quality Management (TQM) models, structured across a phased delivery framework that moves from laying foundational alignments to achieving national leadership in patient care.<br><br>
+							
+							Workforce engagement is fostered through regular leadership vlogs, continuous improvement training, and embedding a proactive culture where staff seek consumer input during planning stages. Accountability is maintained through rigorous metrics including narrative impact surveys, trust indices, co-design evidence, and cost-benefit analyses. Furthermore, consumers are actively integrated into the measurement process through representative panels, collection centre audits, and direct storytelling feedback.</p>
+						</div>
+                      </div>
+					 </div>
+					</div>
                   </div>
-                </div>
+				  </div>
+				  <hr>
               </div>
             </div>
           </div>
@@ -180,7 +287,7 @@
         <div class="col-12 text-center">
           <h1>Like What You See?</h1>
           <p>If you would like further information regarding the strategies and projects mentioned above, please reach out at any time.<br>I am currently seeking my next opportunity and would love to discuss how my skillset can benefit your organisation.</p>
-          <a href="Contact me page.html"><button type="button" class="btn btn-success">Contact me</button></a>
+          <a href="Contact me page.html" type="button" class="btn btn-success">Contact me</a>
         </div>
       </div>
     </div>
@@ -219,17 +326,16 @@
   </section>
   <hr>
 
-  <footer class="text-center">
+  <footer class="text-center" style="background: linear-gradient(135deg, #FFC0B0, #FFDCB0, #B0FEFF); color: #1C2E2E">
     <div class="container">
       <div class="row">
-        <div class="col-12">
-          <a href="index.html">Back to home</a>
-          <p>© 2026 Hannah Stampke. All rights reserved.</p>
+        <div class="col-12" style="padding-top: 1rem">
+          <a href="index.html"><subheading>Back to home</subheading></a>
+          <p style="padding-top: 1rem">&copy; 2026 Hannah Stampke. All rights reserved.</p>
         </div>
       </div>
     </div>
   </footer>
-
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/popper-2.11.8.min.js"></script>
   <script src="js/bootstrap-5.3.8.js"></script>
